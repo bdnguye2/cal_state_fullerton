@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+\graphicspath{{image/}}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{enumerate}
+\usepackage{braket}
+% 
+% Hyperlinks
+\usepackage[colorlinks,linkcolor={red},citecolor={blue},
+urlcolor={blue}]{hyperref} 
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+% Math mode version of "r" column type (requires array package)
+\newcolumntype{R}{>{$}r<{$}}
+% Title, authors, date
+\title{\textbf{Exam 2 Study Guide}}
+\date{\today}
+
+\begin{document}
+
+\maketitle 
+
+This is a checklist based on the lecture and textbook materials. It is not
+expected to be an all encompassing study guide and provides a guideline for
+your studies.
+
+\textbf{Chapter 5: Stoichiometry}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Chemical equations
+\item Mole ratios - converting from one compounds to another
+\item Meaning of mole ratios
+\item Limiting reagent problems
+\item Theoretical yield and percent yield
+\item Molarity (mols/L)
+\item Dilution problems ($M_1V_1 = M_2V_2$)
+\item Molarity of ions
+\item Stoichiometry with molarity
+\end{itemize}
+
+\textbf{Chapter 6: Thermochemistry}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Kinetic energy vs potential energy
+\item Sign conventions (+/-)
+\item Internal energy - work and heat
+\item State function
+\item Endothermic, exothermic reactions and effects of catalysts
+\item Calculating heat ($q=mc\Delta T$) and thermal equilibrium
+\item Calorimetry calculations
+\item Standard enthalpy and enthalpy of reaction
+  \item Hess' Law
+\end{itemize}
+
+\textbf{Chapter 7: Gases}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Boyle's Law
+\item Charles' Law
+\item Avogadro's Law
+\item Assumptions of ideal gas law
+\end{itemize}
+
+\end{document}

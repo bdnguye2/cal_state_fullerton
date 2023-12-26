@@ -1,0 +1,92 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+\graphicspath{{image/}}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{enumerate}
+\usepackage{braket}
+% 
+% Hyperlinks
+\usepackage[colorlinks,linkcolor={red},citecolor={blue},
+urlcolor={blue}]{hyperref} 
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+% Math mode version of "r" column type (requires array package)
+\newcolumntype{R}{>{$}r<{$}}
+% Title, authors, date
+\title{\textbf{Exam 3 Study Guide}}
+\date{\today}
+
+\begin{document}
+
+\maketitle 
+
+This is a checklist based on the lecture and textbook materials. It is not
+expected to be an all encompassing study guide and provides a guideline for
+your studies.
+
+\textbf{Chapter 8: The Quantum Model of the Atom}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Relationship wavelength $\lambda$, frequency $\nu$, and speed of light $c$
+\item Relationship between light energy and frequency and wavelength
+\item Electromagtic spectrum (Radio waves, Microwaves, IR, visible light, UV vis, X-ray, and gamma rays)
+\item Bohr Model of the atom and its limitation
+\item Rydberg equation
+\item Quantum numbers ($n, l, m_l, m_s$) and atomic orbitals
+\item Heisenberg Uncertainty principle, Pauli Exclusion principle, Aufbau principle, and
+  Hund's rule
+\item Electron configurations (long and short handed)
+\end{itemize}
+
+\textbf{Chapter 9: Periodic trends}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Valence and core electrons
+\item Atomic and ionic radius
+\item Electronegativity trends
+\item Ionization Energy and Electron Affinity
+\end{itemize}
+
+\textbf{Chapter 10: Covalent Bonding}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Lewis structure and steps to draw compounds
+\item Octet rule and exceptions to the octet rules
+\item Resonance structures and hybrid structure
+\item Nonpolar/Polar bonds and electronegativity
+\end{itemize}
+
+\textbf{Chapter 11: Molecular Shape}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+\item Define VSEPR Model
+\item Electronic arrangement/structure and Geometric Structure
+\item Nonpolar/Polar molecules
+\end{itemize}
+
+
+\end{document}
